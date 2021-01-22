@@ -18,7 +18,7 @@ public class SafetyNetApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SafetyNetApplication.class, args);
 	}
-	private static String file = "src/main/resources/data.json";
+	private static String file = "N:\\Boulot\\Workspace\\git\\SafetyNetFInale\\SafetyNet-master\\src\\main\\resources\\data.json";
 
 	@Bean
 	public Model loadModel() throws IOException {
